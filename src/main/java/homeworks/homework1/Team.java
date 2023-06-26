@@ -21,5 +21,6 @@ public class Team {
                     "Класс в школе: " + teamMembers[i].getGradeAtSchool() + ".");
         }
     }
+
 }
 
