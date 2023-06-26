@@ -17,7 +17,7 @@ public class Team {
         System.out.println("Участники команды " + teamName + ":");
         for (int i = 0; i < teamMembers.length; i++){
             System.out.println("Вид: " + teamMembers[i].getName() + "; Рост: " + teamMembers[i].getHeight() + "см; " +
-                    "Скорость " + teamMembers[i].getSpeed() + "м/с; " + "Высота прыжка: " + teamMembers[i].getJumpHeight() + "см; " +
+                    "Скороcть " + teamMembers[i].getSpeed() + "м/с; " + "Высота прыжка: " + teamMembers[i].getJumpHeight() + "см; " +
                     "Класс в школе: " + teamMembers[i].getGradeAtSchool() + ".");
         }
     }
